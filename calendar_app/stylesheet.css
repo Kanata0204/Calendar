@@ -16,15 +16,11 @@ body {
           flex-direction: column;
 }
 
-header {
-  height: 150px;
-}
-
-header #header_title {
+#header_title {
   color: pink;
 }
 
-div {
+#main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -33,18 +29,12 @@ div {
           flex: 1;
 }
 
-div main {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+#main #calendar {
+  font-size: 40px;
 }
 
-div nav {
-  width: 150px;
-}
-
-div aside {
-  width: 200px;
+#main td {
+  padding: 0 2px;
 }
 
 footer {
@@ -55,22 +45,11 @@ footer {
   body {
     width: 100%;
   }
-  div {
+  #main {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-  }
-  div nav {
-    width: 100%;
-  }
-  div main {
-    -webkit-box-ordinal-group: 0;
-        -ms-flex-order: -1;
-            order: -1;
-  }
-  div aside {
-    width: 100%;
   }
 }
 /*# sourceMappingURL=stylesheet.css.map */
