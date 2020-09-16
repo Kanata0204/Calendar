@@ -27,10 +27,13 @@ body {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  text-align: center;
 }
 
 #main #calendar {
   font-size: 40px;
+  margin: 0 auto;
+  width: 60%;
 }
 
 #main td {
