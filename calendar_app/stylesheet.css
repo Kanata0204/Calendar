@@ -31,13 +31,15 @@ body {
 }
 
 #main #calendar {
+  background-color: rgba(229, 229, 252, 0.918);
   font-size: 40px;
   margin: 0 auto;
-  width: 60%;
+  margin-top: 100px;
+  width: 70%;
 }
 
 #main td {
-  padding: 0 2px;
+  padding: 2px;
 }
 
 footer {
